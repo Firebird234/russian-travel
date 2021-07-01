@@ -1,0 +1,31 @@
+.logo_place_header {
+    display: block;
+    background-image: url(../../../images/__logo.svg);
+    width: 176px;
+    height: 52px;
+    background-size: contain;
+}
+
+.logo_place_header:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo_place_header {
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .logo_place_header {
+      width: 176px;
+      height: 52px;
+    }
+}
+
+
+  @media screen and (max-width: 320px) {
+    .logo_place_header {
+    max-width: 142px;
+    max-height: 42px;
+    }
+  }

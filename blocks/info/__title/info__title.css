@@ -1,0 +1,39 @@
+.info__title {
+    width: 460px;
+    margin: 0;
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;  
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .info__title  {
+    max-width: 440px;
+            }
+    }
+
+@media screen and (max-width: 768px) {
+  .info__title  {
+  max-width: 340px;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 46px;
+  margin-bottom: 0;
+
+            }
+      }
+
+@media screen and (max-width: 320px) {
+    .info__title  {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0 16px 0;
+            }
+    }
+
+

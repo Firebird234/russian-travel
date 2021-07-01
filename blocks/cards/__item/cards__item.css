@@ -1,0 +1,14 @@
+.cards__item {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards__item {
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .cards__item {
+    }
+  }

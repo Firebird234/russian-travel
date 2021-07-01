@@ -1,0 +1,29 @@
+.info__text {
+    display: flex;
+    flex-direction: column;
+    width: 484px;
+    margin-left: 40px;
+    gap: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+    .info__text {
+      margin-left: 32px;
+            }
+    }
+
+
+@media screen and (max-width: 768px) {
+    .info__text {
+      margin-left: 28px;
+      margin-top: 44px;
+            }
+    }
+
+
+@media screen and (max-width: 320px) {
+    .info__text {
+        margin: 0;
+      padding: 32px 16px 0;
+            }
+    }

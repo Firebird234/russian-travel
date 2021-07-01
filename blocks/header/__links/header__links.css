@@ -1,0 +1,22 @@
+.header__links {
+    display: flex;
+    gap: 18px;
+    justify-content: space-around;
+    margin-top: 14px;
+}
+
+/*
+@media screen and (max-width: 768px) {
+    .header__links {
+      right: 22px;
+      top: 47px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .header__links {
+      right: 16px;
+      top: 31px;
+    }
+}

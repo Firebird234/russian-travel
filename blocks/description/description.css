@@ -1,0 +1,34 @@
+.description {
+ align-self: center;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding-top: 92px;
+ width: 984px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .description {
+    width: 928px;
+    }
+  }
+
+  
+
+  @media screen and (max-width: 968px) {
+    .description {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 89px 24px ;
+    }
+  }
+
+  @media screen and (max-width: 355px) {
+    .description {
+        box-sizing: content-box;
+    width: 288px;
+    padding: 62px 16px 0 16px;
+    }
+  }
+

@@ -1,0 +1,29 @@
+.info__row_top {
+    display: flex;
+    flex: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .info__row_top  {
+    width: 100%;
+    flex-wrap: nowrap;
+            }
+    }
+
+    @media screen and (max-width: 768px) {
+        .info__row_top  {
+        width: 100%;
+                }
+        }
+
+        @media screen and (max-width: 768px) {
+            .info__row_top  {
+              flex-wrap: wrap;
+              
+                    }
+            }

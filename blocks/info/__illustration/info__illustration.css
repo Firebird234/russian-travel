@@ -1,0 +1,25 @@
+.info__illustration {
+    width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .info__illustration  {
+    max-width: 440px;
+            }
+    }
+
+
+@media screen and (max-width: 768px) {
+    .info__illustration  {
+    margin-top: 44px;
+    max-width: 340px;
+    max-height: 340px;
+            }
+    }
+
+    @media screen and (max-width: 320px) {
+        .info__illustration  {
+        width: 100%;
+        margin-top: 32px;
+                }
+        }

@@ -1,0 +1,29 @@
+.info__cards {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+    max-width: 984px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .info__cards  {
+    max-width: 928px;
+            }
+    }
+
+    @media screen and (max-width: 768px) {
+        .info__cards  {
+        max-width: 720px;
+                }
+        }
+
+        @media screen and (max-width: 320px) {
+            .info__cards  {
+            width: 100% ;
+            margin: 0;
+                    }
+            }
