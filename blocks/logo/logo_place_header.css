@@ -1,4 +1,4 @@
-.logo__place_header {
+.logo__place-header {
     display: block;
     background-image: url(../../../images/__logo.svg);
     width: 176px;
@@ -6,17 +6,17 @@
     background-size: contain;
 }
 
-.logo__place_header:hover {
+.logo__place-header:hover {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
-  .logo__place_header {
+  .logo__place-header {
   }
 }
 
 @media screen and (max-width: 768px) {
-    .logo_place_header {
+    .logo_place-header {
       width: 176px;
       height: 52px;
     }
@@ -24,7 +24,7 @@
 
 
   @media screen and (max-width: 320px) {
-    .logo__place_header {
+    .logo__place-header {
     max-width: 142px;
     max-height: 42px;
     }
