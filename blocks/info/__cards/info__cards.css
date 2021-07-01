@@ -23,7 +23,7 @@
 
         @media screen and (max-width: 320px) {
             .info__cards  {
-            width: 100% ;
+            width: 100%;
             margin: 0;
                     }
             }

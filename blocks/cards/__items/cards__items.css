@@ -26,6 +26,6 @@ justify-content: center;
   @media screen and (max-width: 320px) {
     .cards__items {
     gap: 12px;
-    margin: 64px 16px 0 16px;;
+    margin: 64px 16px 0 16px;
     }
   }
