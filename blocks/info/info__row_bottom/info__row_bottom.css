@@ -1,9 +1,9 @@
-.info__row_bottom  {
+.info__row-bottom  {
     display: flex;
 }
 
 @media screen and (max-width: 320px) {
-    .info__row_bottom {
+    .info__row-bottom {
         width: 100%;
         flex-wrap: wrap;
             }
