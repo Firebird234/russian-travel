@@ -4,30 +4,28 @@
     align-content: center;
     max-width: 1184px;
     margin-top: 92px;
-    width: 100%;
     padding: 0 48px 24px;
 }
 
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
-      margin-top: 92px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        max-width: 720px;
+      max-width: 720px;
       margin-top: 98px;
       padding: 0 24px 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
     .footer {
-        max-width: 186px;
+      max-width: 186px;
       margin-top: 68px;
-      padding: 0 24px 24px;
       flex-direction: column;
+      padding: 0 16px 16px;
     }
 }
