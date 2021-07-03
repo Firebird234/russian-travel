@@ -30,7 +30,7 @@
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__fact-sheet/description__fact-sheet.css);
 @import url(../blocks/description/__text/description__text.css);
-@import url(../blocks/number-style/number-style.css);
+@import url(../blocks/description/__number-style/description__number-style.css);
 
 
 /*CARDS*/
@@ -43,8 +43,8 @@
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__cards/info__cards.css);
 @import url(../blocks/info/__card/info__card.css);
-@import url(../blocks/info/info__row_top/info__row_top.css);
-@import url(../blocks/info/info__row_bottom/info__row_bottom.css);
+@import url(../blocks/info/info__row-top/info__row-top.css);
+@import url(../blocks/info/info__row-bottom/info__row-bottom.css);
 @import url(../blocks/info/__resources/info__resources.css);
 @import url(../blocks/info/__title/info__title.css);
 @import url(../blocks/info/__text/info__text.css);

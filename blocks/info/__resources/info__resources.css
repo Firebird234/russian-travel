@@ -20,7 +20,7 @@
 @media screen and (max-width: 768px) {
   .info__resources  {
     margin: 0;
-    margin-left: 28px;
+    margin-left: 38px;
     max-width: 352px;
     align-self: flex-end;
     gap: 12px;
